@@ -1,0 +1,51 @@
+.track {
+	cursor: pointer;
+	display: inline-flex;
+	gap: .75rem;
+	padding: .5rem 1.5rem .5rem .5rem;
+	border-radius: .75rem;
+	transition: .2s;
+}
+
+.track:hover {
+	background: #052881;
+}
+
+.track:hover .albumCover {
+	background: #0948e8;
+	box-shadow:
+  2.8px 2.8px 2.2px rgb(9, 72, 232, 0.02),
+  6.7px 6.7px 5.3px rgb(9, 72, 232, 0.028),
+  12.5px 12.5px 10px rgb(9, 72, 232, 0.035),
+  22.3px 22.3px 17.9px rgb(9, 72, 232, 0.042),
+  41.8px 41.8px 33.4px rgb(9, 72, 232, 0.05),
+  100px 100px 80px rgb(9, 72, 232, 0.07);
+}
+
+
+.albumCover {
+	padding: .75rem;
+	background: #222;
+	border-radius: .5rem;
+	transition: .2s;
+}
+
+.trackContent {
+	display: flex;
+	flex-direction: column;
+	gap: .125rem;
+}
+
+.trackName {
+	font-weight: 500;
+	transition: .2s;
+}
+
+.artists {
+	font-weight: 400;
+	color: #aaa;
+}
+
+.artist:not(:last-child):after {
+	content: ', ';
+}

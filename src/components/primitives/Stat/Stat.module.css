@@ -1,0 +1,45 @@
+.stat {
+	display: inline-flex;
+	flex-direction: row;
+	gap: 1rem;
+	align-items: flex-start;
+	padding: .75rem;
+	padding-right: 2rem;
+}
+
+.statIcon {
+	padding: .25rem;
+	background: #222;
+	border-radius: .5rem;
+	color: #fff;
+}
+
+.statContent {
+	display: flex;
+	flex-direction: column;
+	gap: .25rem;
+	line-height: 1.25;
+}
+
+.statName {
+	text-transform: uppercase;
+	font-size: 0.875rem;
+}
+
+.statValue {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+.quantity {
+	font-family: var(--font-mono);
+	font-size: 2rem;
+	font-weight: 600;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.unit {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+}

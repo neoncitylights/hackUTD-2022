@@ -1,0 +1,20 @@
+.chip {
+	display: inline-flex;
+	padding: .5rem 1rem;
+	background: #222;
+	border-radius: 9999px;
+	font-size: 1rem;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.chip:hover {
+	background: #0948e8;
+	box-shadow:
+  2.8px 2.8px 2.2px rgb(9, 72, 232, 0.02),
+  6.7px 6.7px 5.3px rgb(9, 72, 232, 0.028),
+  12.5px 12.5px 10px rgb(9, 72, 232, 0.035),
+  22.3px 22.3px 17.9px rgb(9, 72, 232, 0.042),
+  41.8px 41.8px 33.4px rgb(9, 72, 232, 0.05),
+  100px 100px 80px rgb(9, 72, 232, 0.07);
+}
